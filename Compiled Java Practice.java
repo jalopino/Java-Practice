@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 /*
-public class HelloWorld {
+public class Choose {
     public static void main(String args[]) {
         int a,b,c;
         Scanner in = new Scanner(System.in);
@@ -48,7 +48,7 @@ public class TotalPurchaseProgram {
 }
 
 
-public class HelloWorld {
+public class Solve {
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
         int Participants, Fee = 1000, TotalParticantFee;
@@ -81,7 +81,7 @@ import java.awt.event.KeyEvent;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
 
-public class HelloWorld {
+public class KeyboardEvents {
 
     public static void main(String[] argv) throws Exception {
         JTextField textField = new JTextField();
@@ -136,7 +136,7 @@ public class HelloWorld {
 
 
 
-public class HelloWorld {
+public class Reverse {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Put Last Name");
@@ -163,7 +163,7 @@ public class HelloWorld {
 
 
 
-public class HelloWorld {
+public class Test {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         char answer;
@@ -186,7 +186,7 @@ public class HelloWorld {
     }
 }
 
-public class HelloWorld {
+public class Patterns {
     public static void main(String[] args) {
         String Pattern = "*******";
         char[] PatternChars = Pattern.toCharArray();
@@ -200,7 +200,7 @@ public class HelloWorld {
 
 
 
-public class HelloWorld {
+public class Loops {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         char answer;
@@ -229,7 +229,7 @@ public class HelloWorld {
 
 
 
-public class HelloWorld {
+public class WhileDoLoops {
     public static void main(String[] args) {
         int a, b, sum;
         boolean retry = true;
@@ -257,7 +257,7 @@ public class HelloWorld {
 
 
 
-public class HelloWorld {
+public class CharArrays {
     public static void main(String[] args) {
         int placement;
         String Pattern = "         ";
@@ -282,7 +282,7 @@ public class HelloWorld {
 }
 
 
-public class HelloWorld {
+public class CharArraysVowels {
     public static int vowelAmount;
     public static void main(String[] args) {
         char[] vowels = {'a', 'e', 'i', 'o', 'u'};
@@ -300,7 +300,7 @@ public class HelloWorld {
 }
 
 
-public class HelloWorld {
+public class Functions {
     public static double Product(double x,double y) {
         double z;
         z = x * y;
@@ -315,7 +315,7 @@ public class HelloWorld {
     }
 }
 
-public class HelloWorld {
+public class FunctionsTwo {
     public static void oneParam(int x) {
         System.out.println("Number is " + x);
     }
@@ -328,7 +328,7 @@ public class HelloWorld {
 }
 
 
-public class HelloWorld {
+public class MoreFunctions {
 
     public static void printDifference(int x, int y) {
         int z;
@@ -367,7 +367,7 @@ public class HelloWorld {
 }
 
 
-public class HelloWorld {
+public class VoidFunctions {
 
     public static void evenOdd(int x) {
         int z;
@@ -410,7 +410,7 @@ public class HelloWorld {
     }
 }
 
-public class HelloWorld {
+public class AverageScore {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int sum = 0;
@@ -433,7 +433,7 @@ public class HelloWorld {
 }
 
 
-public class HelloWorld {
+public class ArrayPractices {
     public static void main(String[] args) {
         int x;
         Scanner in = new Scanner(System.in);
@@ -451,7 +451,7 @@ public class HelloWorld {
     }
 }
 
-public class HelloWorld {
+public class SecondHighest {
     public static void main(String[] args) {
         int grades[] = { 56, 89, 11, 34, 90, 78, 63, 25, 99, 6 };
         int ny = 0;
@@ -467,7 +467,7 @@ public class HelloWorld {
     }
 }
 
-public class HelloWorld {
+public class MoreArray {
     public static void main(String[] args) {
         int[][] MultEvenArray = new int[10][10];
         for (int i=0;i < MultEvenArray.length; i++) {
@@ -481,7 +481,7 @@ public class HelloWorld {
     }
 }
 
-public class HelloWorld {
+public class StringAdd {
     public static void main(String[] args) {
         String line1s1 = "You don't ";
         String line1s2 = "know, babe ";
@@ -510,7 +510,7 @@ public class HelloWorld {
     }
 }
 
-public class HelloWorld {
+public class Assorted {
 
     public static int consonant;
     public static int vowel;
@@ -564,7 +564,9 @@ public class HelloWorld {
     }
 }
 
-public class HelloWorld {
+ */
+
+public class EmployeeInformation {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String employee[] = new String[5];
@@ -625,25 +627,3 @@ public class HelloWorld {
     }
 }
 
- */
-
-public class HelloWorld {
-    static boolean FuncX(String str) {
-        int i = 0, j = str.length() - 1;
-        while (i < j) {
-            if (str.charAt(i) != str.charAt(j))
-                return false;
-            i++;
-            j--;
-        }
-        return true;
-    }
-
-    public static void main(String[] args) {
-            String str = "deified";
-            if (FuncX(str))
-                System.out.println("Yes");
-            else
-                System.out.print("No");
-        }
-}
